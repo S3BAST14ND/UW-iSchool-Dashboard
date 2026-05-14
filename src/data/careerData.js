@@ -1,0 +1,265 @@
+
+export const careerData = {
+  dataAnalyst: {
+    title: "Data Analyst",
+    emoji: "📊",
+    salary: "$55,000 – $99,000",
+    salaryMid: 77000,
+    education: "Bachelor's Degree",
+    skills: ["SQL", "Python", "Excel", "Tableau", "Statistics"],
+    niche: false,
+    summary:
+      "Data analysts collect, clean, and interpret datasets to help organizations make informed decisions. You'll work closely with business teams to turn numbers into narratives.",
+    roadmap: [
+      "Learn Excel, SQL, and data visualization tools",
+      "Study statistics and data analysis fundamentals",
+      "Complete Google Data Analytics Certificate",
+      "Build a portfolio with real datasets from Kaggle",
+      "Apply for entry-level analyst roles",
+    ],
+    courses: [
+      { code: "INFO 180", title: "Introduction to Data Science" },
+      { code: "INFO 201", title: "Foundational Skills for Data Science" },
+      { code: "INFO 330", title: "Databases and Data Modeling" },
+      { code: "INFO 370", title: "Core Methods in Data Science" },
+      { code: "INFO 371", title: "Advanced Methods in Data Science" },
+      { code: "INFO 474", title: "Interactive Information Visualization" },
+    ],
+  },
+
+  uxDesigner: {
+    title: "UX / UI Designer",
+    emoji: "🎨",
+    salary: "$60,000 – $105,000",
+    salaryMid: 82500,
+    education: "Bachelor's Degree",
+    skills: ["Figma", "User Research", "Prototyping", "Wireframing", "Usability Testing"],
+    niche: false,
+    summary:
+      "UX/UI designers create the look, feel, and flow of digital products. You'll blend visual design with an understanding of human behavior to make interfaces that delight users.",
+    roadmap: [
+      "Learn design thinking and user research methods",
+      "Master tools like Figma, Sketch, and Adobe XD",
+      "Build a portfolio with 3–5 case studies",
+      "Complete UX certifications (Google, Nielsen Norman)",
+      "Network and apply for junior design roles",
+    ],
+    courses: [
+      { code: "INFO 360", title: "Design Methods" },
+      { code: "INFO 362", title: "Visual Information Design" },
+      { code: "INFO 442", title: "Cooperative Software Development" },
+      { code: "INFO 462", title: "Design Systems for Digital Experiences" },
+      { code: "INFO 463", title: "Input and Interaction" },
+      { code: "INFO 464", title: "Value Sensitive Design" },
+    ],
+  },
+
+  uxResearcher: {
+    title: "UX Researcher",
+    emoji: "🔬",
+    salary: "$65,000 – $115,000",
+    salaryMid: 90000,
+    education: "Bachelor's Degree",
+    skills: ["User Interviews", "Usability Testing", "Survey Design", "Affinity Mapping", "Synthesis"],
+    niche: true,
+    summary:
+      "UX researchers study how people think, behave, and interact with technology. Rather than designing interfaces, you focus on generating the human insight that drives design decisions — through interviews, observation, and rigorous analysis.",
+    roadmap: [
+      "Learn qualitative and quantitative research methods",
+      "Practice conducting and analyzing user interviews",
+      "Study cognitive psychology and human-computer interaction",
+      "Build a research portfolio with 2–3 documented studies",
+      "Apply for junior researcher or research ops roles",
+    ],
+    courses: [
+      { code: "INFO 300", title: "Research Methods" },
+      { code: "INFO 360", title: "Design Methods" },
+      { code: "INFO 463", title: "Input and Interaction" },
+      { code: "INFO 464", title: "Value Sensitive Design" },
+      { code: "INFO 468", title: "Designing for Personal Health and Wellness" },
+    ],
+  },
+
+  softwareEngineer: {
+    title: "Software Engineer",
+    emoji: "💻",
+    salary: "$75,000 – $130,000",
+    salaryMid: 102500,
+    education: "Bachelor's Degree",
+    skills: ["Python", "JavaScript", "Data Structures", "Git", "Algorithms"],
+    niche: false,
+    summary:
+      "Software engineers design, build, and maintain the systems and applications that power modern technology. You'll write code, solve complex problems, and ship products used by real people.",
+    roadmap: [
+      "Master programming fundamentals (Python, Java, JavaScript)",
+      "Learn data structures and algorithms",
+      "Build projects and contribute to open source",
+      "Practice coding interviews on LeetCode",
+      "Apply for internships and junior developer positions",
+    ],
+    courses: [
+      { code: "INFO 340", title: "Client-Side Development" },
+      { code: "INFO 430", title: "Database Design and Management" },
+      { code: "INFO 441", title: "Server-Side Development" },
+      { code: "INFO 442", title: "Cooperative Software Development" },
+      { code: "INFO 443", title: "Software Architecture for Interactive Systems" },
+      { code: "INFO 449", title: "Mobile Development: iOS" },
+    ],
+  },
+
+  cyberSecurityAnalyst: {
+    title: "Cyber Security Analyst",
+    emoji: "🔐",
+    salary: "$65,000 – $110,000",
+    salaryMid: 87500,
+    education: "Bachelor's Degree",
+    skills: ["Network Security", "Ethical Hacking", "SIEM", "Python", "Risk Analysis"],
+    niche: false,
+    summary:
+      "Cyber security analysts protect organizations from digital threats. You'll monitor systems, investigate incidents, and build defenses — staying one step ahead of attackers.",
+    roadmap: [
+      "Learn networking and IT fundamentals",
+      "Get CompTIA Security+ certification",
+      "Study ethical hacking and security tools",
+      "Complete hands-on labs and CTF challenges",
+      "Pursue advanced certs (CISSP, CEH) for growth",
+    ],
+    courses: [
+      { code: "INFO 310", title: "Information Assurance and Cybersecurity" },
+      { code: "INFO 312", title: "Enterprise Risk Management" },
+      { code: "INFO 314", title: "Computer Networks and Distributed Applications" },
+      { code: "INFO 330", title: "Databases and Data Modeling" },
+      { code: "INFO 410", title: "Cybersecurity Strategies and Policies" },
+    ],
+  },
+
+  productManager: {
+    title: "Product Manager",
+    emoji: "🚀",
+    salary: "$80,000 – $140,000",
+    salaryMid: 110000,
+    education: "Bachelor's Degree",
+    skills: ["Agile", "Roadmapping", "User Stories", "Stakeholder Mgmt", "Analytics"],
+    niche: false,
+    summary:
+      "Product managers own the vision and direction of a product. You'll work at the intersection of engineering, design, and business — deciding what to build and why.",
+    roadmap: [
+      "Understand product development lifecycle",
+      "Learn agile methodologies and user stories",
+      "Develop business and technical communication skills",
+      "Build case studies of product decisions",
+      "Network and seek APM or PM internships",
+    ],
+    courses: [
+      { code: "INFO 300", title: "Research Methods" },
+      { code: "INFO 331", title: "Introduction to Information Architecture" },
+      { code: "INFO 360", title: "Design Methods" },
+      { code: "INFO 380", title: "Product and Information Systems Management" },
+      { code: "INFO 480", title: "Program and Project Management" },
+    ],
+  },
+
+  businessAnalyst: {
+    title: "Business Analyst",
+    emoji: "📋",
+    salary: "$55,000 – $100,000",
+    salaryMid: 77500,
+    education: "Bachelor's Degree",
+    skills: ["Requirements Gathering", "Process Modeling", "SQL", "Stakeholder Facilitation", "Documentation"],
+    niche: true,
+    summary:
+      "Business analysts bridge the gap between business stakeholders and technical teams. You'll investigate processes, document requirements, and ensure technology solutions actually solve the right problems.",
+    roadmap: [
+      "Learn process modeling tools (BPMN, flowcharts)",
+      "Study requirements engineering and user story writing",
+      "Get familiar with SQL for data querying",
+      "Earn a CBAP or PMI-PBA certification",
+      "Apply for BA or systems analyst roles in tech or consulting",
+    ],
+    courses: [
+      { code: "INFO 200", title: "Intellectual Foundations of Informatics" },
+      { code: "INFO 300", title: "Research Methods" },
+      { code: "INFO 330", title: "Databases and Data Modeling" },
+      { code: "INFO 380", title: "Product and Information Systems Management" },
+      { code: "INFO 480", title: "Program and Project Management" },
+    ],
+  },
+
+  technicalProgramManager: {
+    title: "Technical Program Manager",
+    emoji: "🗂️",
+    salary: "$90,000 – $155,000",
+    salaryMid: 122500,
+    education: "Bachelor's Degree",
+    skills: ["Program Planning", "Risk Management", "Engineering Communication", "Dependency Mapping", "Agile/Scrum"],
+    niche: true,
+    summary:
+      "Technical program managers oversee large, complex engineering initiatives across multiple teams. Unlike product managers, TPMs focus on execution — tracking dependencies, managing risk, and making sure everything ships on time.",
+    roadmap: [
+      "Build a foundation in software development processes",
+      "Learn Agile, Scrum, and program planning frameworks",
+      "Develop skills in risk assessment and dependency mapping",
+      "Earn PMP or Agile certifications",
+      "Look for APM, coordinator, or program analyst roles to start",
+    ],
+    courses: [
+      { code: "INFO 314", title: "Computer Networks and Distributed Applications" },
+      { code: "INFO 380", title: "Product and Information Systems Management" },
+      { code: "INFO 441", title: "Server-Side Development" },
+      { code: "INFO 480", title: "Program and Project Management" },
+      { code: "INFO 490", title: "Practical Capstone I" },
+    ],
+  },
+
+  dataEngineer: {
+    title: "Data Engineer",
+    emoji: "⚙️",
+    salary: "$80,000 – $140,000",
+    salaryMid: 110000,
+    education: "Bachelor's Degree",
+    skills: ["Python", "SQL", "ETL Pipelines", "Cloud Platforms (AWS/GCP)", "Data Warehousing"],
+    niche: true,
+    summary:
+      "Data engineers build the infrastructure that makes data usable. While analysts ask questions of data, you build the systems that collect, transform, and store it reliably at scale — the foundation everything else sits on.",
+    roadmap: [
+      "Master Python and SQL for data transformation",
+      "Learn cloud platforms: AWS, GCP, or Azure",
+      "Study ETL/ELT patterns and pipeline orchestration (Airflow)",
+      "Build a portfolio project with a real data pipeline",
+      "Apply for data engineering or analytics engineering roles",
+    ],
+    courses: [
+      { code: "INFO 201", title: "Foundational Skills for Data Science" },
+      { code: "INFO 330", title: "Databases and Data Modeling" },
+      { code: "INFO 370", title: "Core Methods in Data Science" },
+      { code: "INFO 430", title: "Database Design and Management" },
+      { code: "INFO 441", title: "Server-Side Development" },
+    ],
+  },
+
+  informationArchitect: {
+    title: "Information Architect",
+    emoji: "🗃️",
+    salary: "$65,000 – $110,000",
+    salaryMid: 87500,
+    education: "Bachelor's Degree",
+    skills: ["Taxonomy Design", "Content Modeling", "Card Sorting", "Sitemaps", "Navigation Design"],
+    niche: true,
+    summary:
+      "Information architects design the structure and organization of information in digital systems — from websites and apps to intranets and knowledge bases. If you've ever thought 'why is this so hard to find?', you'd be the one who fixes it.",
+    roadmap: [
+      "Learn IA fundamentals: taxonomy, labeling, and navigation systems",
+      "Study content strategy and metadata design",
+      "Practice card sorting and tree testing with real users",
+      "Build case studies showing before/after IA improvements",
+      "Look for IA, content strategy, or UX roles at larger organizations",
+    ],
+    courses: [
+      { code: "INFO 331", title: "Introduction to Information Architecture" },
+      { code: "INFO 360", title: "Design Methods" },
+      { code: "INFO 362", title: "Visual Information Design" },
+      { code: "INFO 433", title: "Content Strategy in Information Architecture" },
+      { code: "INFO 462", title: "Design Systems for Digital Experiences" },
+    ],
+  },
+};

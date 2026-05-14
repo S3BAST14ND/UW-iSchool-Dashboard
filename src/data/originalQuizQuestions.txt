@@ -1,0 +1,170 @@
+const quizData = [
+  {
+    question: "Which type of problems are you most interested in solving?",
+    options: [
+      "Designing user-friendly digital experiences",
+      "Analyzing data to inform decisions",
+      "Building or maintaining technical systems",
+      "Understanding social impacts of technology",
+      "Coordinating teams and stakeholders",
+    ],
+  },
+  {
+    question: "What aspect of information science excites you most?",
+    options: [
+      "Human-computer interaction and UX design",
+      "Data science and analytics",
+      "Software development and engineering",
+      "Information policy and ethics",
+      "Project management and leadership",
+    ],
+  },
+  {
+    question: "How do you prefer to work on projects?",
+    options: [
+      "Independently with clear guidelines",
+      "In small collaborative teams",
+      "Leading large group initiatives",
+      "Researching and analyzing solo",
+      "Mentoring and teaching others",
+    ],
+  },
+  {
+    question: "What skill would you most like to develop?",
+    options: [
+      "Advanced programming languages",
+      "Data visualization techniques",
+      "User research methodologies",
+      "Strategic communication",
+      "Statistical analysis",
+    ],
+  },
+  {
+    question: "Which career path interests you most?",
+    options: [
+      "UX/UI Designer",
+      "Data Analyst",
+      "Software Engineer",
+      "Information Architect",
+      "Product Manager",
+    ],
+  },
+  {
+    question: "What type of impact do you want to make?",
+    options: [
+      "Improving accessibility for all users",
+      "Solving complex business problems",
+      "Building innovative technology products",
+      "Shaping ethical tech policies",
+      "Empowering communities through information",
+    ],
+  },
+  {
+    question: "Which learning environment suits you best?",
+    options: [
+      "Hands-on coding workshops",
+      "Case study analysis and discussion",
+      "Design thinking sessions",
+      "Research seminars",
+      "Field work and internships",
+    ],
+  },
+  {
+    question: "What motivates you in your studies?",
+    options: [
+      "Creating tangible products",
+      "Discovering insights from data",
+      "Helping people solve problems",
+      "Understanding complex systems",
+      "Making strategic decisions",
+    ],
+  },
+  {
+    question: "Which challenge sounds most appealing?",
+    options: [
+      "Redesigning a confusing interface",
+      "Finding patterns in large datasets",
+      "Debugging complex code",
+      "Evaluating information privacy issues",
+      "Coordinating a multi-stakeholder project",
+    ],
+  },
+  {
+    question: "What's your ideal work-life balance?",
+    options: [
+      "Flexible remote work with project deadlines",
+      "Structured office hours with team collaboration",
+      "Mix of fieldwork and office time",
+      "Independent schedule with periodic check-ins",
+      "Dynamic schedule based on project needs",
+    ],
+  },
+];
+
+const careerData = {
+  dataAnalyst: {
+    title: "Data Analyst",
+    salary: "$55,000 – $99,000",
+    education: "Bachelor's Degree",
+    roadmap: [
+      "Learn Excel, SQL, and data visualization tools",
+      "Study statistics and data analysis fundamentals",
+      "Complete Google Data Analytics Certificate",
+      "Build portfolio with real datasets from Kaggle",
+      "Apply for entry-level analyst roles",
+    ],
+    courses: ["INFO 340", "INFO 370", "INFO 371"],
+  },
+  cyberSecurityAnalyst: {
+    title: "Cyber Security Analyst",
+    salary: "$65,000 – $110,000",
+    education: "Bachelor's Degree",
+    roadmap: [
+      "Learn networking and IT fundamentals",
+      "Get CompTIA Security+ certification",
+      "Study ethical hacking and security tools",
+      "Complete hands-on labs and CTF challenges",
+      "Pursue advanced certs (CISSP, CEH) for growth",
+    ],
+    courses: ["IMT 555", "INFO 415", "INFO 310"],
+  },
+  uxDesigner: {
+    title: "UX/UI Designer",
+    salary: "$60,000 – $105,000",
+    education: "Bachelor's Degree",
+    roadmap: [
+      "Learn design thinking and user research methods",
+      "Master tools like Figma, Sketch, and Adobe XD",
+      "Build a portfolio with 3–5 case studies",
+      "Complete UX certifications (Google, Nielsen Norman)",
+      "Network and apply for junior design roles",
+    ],
+    courses: ["INFO 360", "INFO 365", "INFO 463"],
+  },
+  softwareEngineer: {
+    title: "Software Engineer",
+    salary: "$75,000 – $130,000",
+    education: "Bachelor's Degree",
+    roadmap: [
+      "Master programming fundamentals (Python, Java, JavaScript)",
+      "Learn data structures and algorithms",
+      "Build projects and contribute to open source",
+      "Practice coding interviews on LeetCode",
+      "Apply for internships and junior developer positions",
+    ],
+    courses: ["INFO 340", "INFO 441", "INFO 443"],
+  },
+  productManager: {
+    title: "Product Manager",
+    salary: "$80,000 – $140,000",
+    education: "Bachelor's Degree",
+    roadmap: [
+      "Understand product development lifecycle",
+      "Learn agile methodologies and user stories",
+      "Develop business and technical communication skills",
+      "Build case studies of product decisions",
+      "Network and seek APM or PM internships",
+    ],
+    courses: ["INFO 380", "INFO 448", "INFO 461"],
+  },
+};
